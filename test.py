@@ -25,11 +25,15 @@
 #                 return sonlar[0] + sonlar_yegindisi(sonlar[1:])
 
 # print(sonlar_yegindisi([10,20,30,40]))
-# 5 - misol
-sozlar = []
-def  unli_soz_borligini_aniqla(sozlar):
-    if sozlar in "aoueo'AOUEO'" :
-        return unli_soz_borligini_aniqla([])
-    else:
-        return sozlar
-print(unli_soz_borligini_aniqla("salom"))
+# # 5 - misol
+# sozlar = []
+# def  unli_soz_borligini_aniqla(sozlar):
+#     if sozlar in "aoueo'AOUEO'" :
+#         return unli_soz_borligini_aniqla([])
+#     else:
+#         return sozlar
+# print(unli_soz_borligini_aniqla("salom"))
+
+
+kvadrat = lambda a,b : a**b
+print(kvadrat(10,2))
