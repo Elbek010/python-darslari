@@ -35,5 +35,9 @@
 # print(unli_soz_borligini_aniqla("salom"))
 
 
-kvadrat = lambda a,b : a**b
-print(kvadrat(10,2))
+# kvadrat = lambda a,b : a**b
+# print(kvadrat(10,2))
+
+
+
+
