@@ -78,4 +78,5 @@
 #     else:
 #         return EKUB(b, a % b)
 # print(EKUB(48,18))
-# 13 - misol
+
+
