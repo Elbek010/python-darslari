@@ -62,14 +62,18 @@
 #     if len(son)== 0:
 #         return 0
 #     else:
-#         return 
+#         katta_son = eng_katta_son(son[1:])
+#         if son[0] > katta_son:
+#             return son[0]
+#         else:
+#             return katta_son
 # print(eng_katta_son([10,20,30]))
 # 11 - misol
-# def darajada_AvaB(a,b):
+# def darajada_A_B(a,b):
 #     if b == 0:
 #         return 1
 #     else:
-#         return a * darajada_AvaB(a, b - 1)
+#         return a * darajada_A_B(a, b - 1)
 # print(darajada_AvaB(2,3))
 # 12 - misol
 # def EKUB(a, b):
