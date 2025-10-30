@@ -27,12 +27,12 @@
 #         return n%10
 # print(ohirgi_raqamni_top(10))
 # 5 - misol
-def raqamlar_soni(n):
-    if n == 0:
-        return 0 
-    else:
-        return 1 + raqamlar_soni(n//10)
-print(raqamlar_soni(789))
+# def raqamlar_soni(n):
+#     if n == 0:
+#         return 0 
+#     else:
+#         return 1 + raqamlar_soni(n//10)
+# print(raqamlar_soni(789))
 # 6 - misol
 # def teskari_satr(matn):
 #     if matn == "":
@@ -40,5 +40,21 @@ print(raqamlar_soni(789))
 #     else:
 #         return matn [-1] + teskari_satr(matn[:-1])
 # print(teskari_satr("qonday"))
+# 7 - mispl
+# def 
 
+# 8 - misol
+# def yigindi_royhat(sonlar):
+#     if sonlar == 0:
+#         return 0
+#     else:
+#         return sonlar[0] + yigindi_royhat(sonlar[1:])
+# print(yigindi_royhat([10,20,30]))
+# a = int(input("son kiriting:"))
+# b = int(input("son kiriting:"))
+# c = int(input("son kiriting:"))
+# d = a+b+c
+# print(d)
+# 9 - misol
+def 
       
